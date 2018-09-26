@@ -71,7 +71,7 @@ namespace RedisHelpers
         /// <param name="key">键</param>
         /// <param name="data">值</param>
         /// <param name="cacheTime">时间</param>
-        public virtual void Set(string key, object data, int cacheTime = 3)
+        public virtual void Set(string key, object data, int cacheTime = 30)
         {
             if (data == null)
             {
